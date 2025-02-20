@@ -30,10 +30,6 @@ spec:
               value: "50"
             - name: SPRING_RABBITMQ_HOST
               value: polar-rabbitmq
-            - name: SPRING_CLOUD_CONFIG_URI
-              value: "http://config-service"
-
-
           lifecycle:
             preStop:
               exec:
